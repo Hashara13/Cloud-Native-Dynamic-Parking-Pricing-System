@@ -185,7 +185,7 @@ Provides a modern web interface for viewing dynamic parking prices.
 ### Features
 
 - Dark professional UI
-- Mobile responsive layout
+- Mobile-responsive layout
 - Search by parking ID
 - Dynamic price visualization
 - Pagination
@@ -218,7 +218,7 @@ Provides a modern web interface for viewing dynamic parking prices.
 
 | Layer | Technology |
 |---------|------------|
-| Forecasting | Prophet, XGBoost, Random Forest, LSTM,CNN-LSTM,LSTM-GRU,Transforme |
+| Forecasting | Prophet, XGBoost, Random Forest, LSTM, CNN-LSTM, LSTM-GRU, Transformer |
 | Data Processing | Python, Pandas |
 | Storage | Azure Blob Storage |
 | Pricing Engine | Azure Functions |
