@@ -35,7 +35,7 @@ Historical Parking Data
         │
         ▼
 Machine Learning Forecasting Models
-(Prophet / XGBoost / Random Forest)
+(Prophet / XGBoost / Random Forest /LSTM / CNN-LSTM / LSTM-GRU / Transformer)
         │
         ▼
 Forecast Output CSV
@@ -63,8 +63,12 @@ End Users
 - Pandas
 - NumPy
 - Prophet
-- XGBoost
+- XGBoost Regressor
 - Random Forest Regressor
+- LSTM
+- CNN-LSTM
+- LSTM-GRU
+- Transformer
 - Jupyter Notebooks
 
 ### Cloud Platform
@@ -119,6 +123,10 @@ Contains the research and development layer of the project.
 - Prophet
 - XGBoost Regressor
 - Random Forest Regressor
+- LSTM
+- CNN-LSTM
+- LSTM-GRU
+- Transformer
 
 ### Key Outputs
 
@@ -195,44 +203,6 @@ Provides a modern web interface for viewing dynamic parking prices.
 
 ---
 
-# End-to-End Workflow
-
-## Step 1
-
-Historical parking transaction data is collected and prepared.
-
-## Step 2
-
-Machine learning models forecast future parking demand.
-
-### Forecasting Models
-
-- Prophet
-- XGBoost Regressor
-- Random Forest Regressor
-
-## Step 3
-
-Forecast outputs are stored as CSV files.
-
-## Step 4
-
-Forecast files are uploaded to Azure Blob Storage.
-
-## Step 5
-
-Azure Functions retrieve forecast data and calculate dynamic prices.
-
-## Step 6
-
-The React dashboard consumes the pricing API.
-
-## Step 7
-
-Users view real-time dynamic parking prices through the web interface.
-
----
-
 # Key Objectives
 
 - Improve parking revenue
@@ -248,7 +218,7 @@ Users view real-time dynamic parking prices through the web interface.
 
 | Layer | Technology |
 |---------|------------|
-| Forecasting | Prophet, XGBoost, Random Forest |
+| Forecasting | Prophet, XGBoost, Random Forest, LSTM,CNN-LSTM,LSTM-GRU,Transforme |
 | Data Processing | Python, Pandas |
 | Storage | Azure Blob Storage |
 | Pricing Engine | Azure Functions |
