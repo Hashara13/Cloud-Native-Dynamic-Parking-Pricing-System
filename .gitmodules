@@ -1,0 +1,9 @@
+[submodule "azure-function-api"]
+	path = azure-function-api
+	url = https://github.com/Hashara13/Dynamic-Pricing-Engine-Azure-Function-App.git
+[submodule "web-ui"]
+	path = web-ui
+	url = https://github.com/Hashara13/shared-parking-Prices.git
+[submodule "Dynamic-Parking-Pricing-Engine"]
+	path = Dynamic-Parking-Pricing-Engine
+	url = https://github.com/Hashara13/Dynamic-Parking-Pricing-Engine.git
